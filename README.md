@@ -12,13 +12,11 @@ stmts -> <stmt> \n <stmts>
 
 stmt -> print <expr>
 
-expr -> <str_value>
 expr -> <int_value>
 ```
 
 Example code
 
 ```
-print "hi"
 print 123
 ```
