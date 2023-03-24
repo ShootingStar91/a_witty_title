@@ -19,4 +19,13 @@ Example code
 
 ```
 print 123
+print 456
 ```
+
+Currently done for the above CFG:
+- [x] Scanner
+- [ ] Nodes
+- [ ] Parser
+- [ ] Typecheck
+- [ ] Execute
+- [ ] Tests
