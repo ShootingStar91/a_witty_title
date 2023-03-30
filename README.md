@@ -24,10 +24,11 @@ print 456
 
 Currently done for the above CFG:
 - [x] Scanner
-- [ ] Nodes
-- [ ] Parser
-- [ ] Typecheck
-- [ ] Execute
+- [x] Nodes
+- [x] Parser
+- [x] Typecheck
+- [x] Execute
+- [ ] Error printing
 - [ ] Tests
 
 
