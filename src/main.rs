@@ -3,6 +3,7 @@ mod lexer;
 mod parser;
 mod token;
 mod checker;
+mod executor;
 
 pub struct RootNode {
     pub stmts: Vec<parser::Node>,
@@ -43,7 +44,12 @@ fn main() {
         return;
     }
 
-    println!("executing...");
+
+
+    println!("Executing...");
+
+    let mut executor = executor::Executor { symbolTable: 1 }; 
+    executor.execute(root);
 
     //test_scan();
 }

@@ -4,7 +4,7 @@ use super::token::{Token, TokenType};
 
 #[allow(unused)]
 pub struct PrintNode {
-    expr: i32,
+    pub expr: i32,
 }
 
 pub struct ErrorNode {
