@@ -1,6 +1,6 @@
 #![allow(warnings, unused)]
 
-use crate::token::{Token, TokenType};
+use super::token::{Token, TokenType};
 use regex::Regex;
 
 pub fn scan(source: &String) -> Vec<Token> {

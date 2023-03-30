@@ -1,6 +1,7 @@
 use std::fmt::Display;
 
 
+#[derive(Clone)]
 pub enum TokenType {
     Number(i32),
     Space,
@@ -9,6 +10,7 @@ pub enum TokenType {
     Error(String)
 }
 
+#[derive(Clone)]
 pub struct Token {
     pub token_type: TokenType,
     pub start: i32,
